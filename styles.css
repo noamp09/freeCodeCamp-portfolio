@@ -83,6 +83,7 @@ a {
 }
 
 #contact {
+    text-align: center;
     background-color: var(--second-blue);
     height: 60vh;
     display: flex;
@@ -100,8 +101,19 @@ a {
 
 #lets-move {
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--main-white);
     font-size: 1.5rem;
+}
+
+#phone {
+    min-width: 40px;
+}
+
+#press-it {
+    font-size: 1rem;
 }
 
 @media only screen and (max-width: 800px) {
